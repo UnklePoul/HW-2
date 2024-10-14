@@ -1,16 +1,15 @@
 public class Main {
     public static void main(String[] args) {
 
-        var dog = 8;
-        var cat = 3.6;
-        var paper = 763789;
+        var friend = 19;
 
-        dog = (int) (dog - 3.5);
-        cat -=  1.6;
-        paper -=  7639;
+        System.out.println(friend);
 
-        System.out.println(dog);
-        System.out.println(cat);
-        System.out.println(paper);
-    }
-}
+        friend += 2;
+
+        System.out.println(friend);
+
+        friend /=7 ;
+
+        System.out.println(friend);
+    }}
