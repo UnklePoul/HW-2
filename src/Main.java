@@ -3,17 +3,17 @@ public class Main {
 
         var frog = 3.5;
 
-        System.out.println(frog);
+        System.out.println("Значение пременной frog:" + frog);
 
         frog *= 10;
 
-        System.out.println(frog);
+        System.out.println("Значение пременной frog:" + frog);
 
         frog /= 3.5 ;
 
-        System.out.println(frog);
+        System.out.println("Значение пременной frog:" + frog);
 
         frog +=4 ;
 
-        System.out.println(frog);
+        System.out.println("Значение пременной frog:" + frog);
     }}
