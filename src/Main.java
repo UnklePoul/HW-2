@@ -5,7 +5,7 @@ public class Main {
         var cat = 3.6;
         var paper = 763789;
 
-        dog -= 3.5;
+        dog = (int) (dog - 3.5);
         cat -=  1.6;
         paper -=  7639;
 
