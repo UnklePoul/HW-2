@@ -1,19 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        var frog = 3.5;
+        var boxer1Weight = 78.2 ;
+        var boxer2Weight = 82.7;
 
-        System.out.println("Значение пременной frog:" + frog);
-
-        frog *= 10;
-
-        System.out.println("Значение пременной frog:" + frog);
-
-        frog /= 3.5 ;
-
-        System.out.println("Значение пременной frog:" + frog);
-
-        frog +=4 ;
-
-        System.out.println("Значение пременной frog:" + frog);
+        var totalWeight = boxer1Weight + boxer2Weight ;
+        var weightDifference = boxer2Weight - boxer1Weight ;
+        System.out.println("Обща масса бойцов " + totalWeight );
+        System.out.println("Разница между массами бойцов " + weightDifference );
     }}
