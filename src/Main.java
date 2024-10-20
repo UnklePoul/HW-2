@@ -4,8 +4,6 @@ public class Main {
         var boxer1Weight = 78.2 ;
         var boxer2Weight = 82.7;
 
-        var totalWeight = boxer1Weight + boxer2Weight ;
-        var weightDifference = boxer2Weight - boxer1Weight ;
-        System.out.println("Обща масса бойцов " + totalWeight );
-        System.out.println("Разница между массами бойцов " + weightDifference );
+        var reminder = boxer2Weight % boxer1Weight  ;
+        System.out.println("Остаток от деления "+reminder);
     }}
