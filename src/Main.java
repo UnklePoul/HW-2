@@ -7,6 +7,6 @@ public class Main {
         var employeeCount = workTime / tymePerDay;
         System.out.println("Count all employees: "+ employeeCount);
         employeeCount += 20;
-        var newTimePerDay = workTime * 1 / employeeCount ;
+        var newTimePerDay = workTime * 1. / employeeCount ;
         System.out.println("New time per day: "+newTimePerDay);
     }}
