@@ -1,9 +1,12 @@
 public class Main {
     public static void main(String[] args) {
 
-        var boxer1Weight = 78.2 ;
-        var boxer2Weight = 82.7;
+        var  workTime = 640 ;
+        var tymePerDay = 8 ;
 
-        var reminder = boxer2Weight % boxer1Weight  ;
-        System.out.println("Остаток от деления "+reminder);
+        var employeeCount = workTime / tymePerDay;
+        System.out.println("Count all employees: "+ employeeCount);
+        employeeCount += 20;
+        var newTimePerDay = workTime * 1 / employeeCount ;
+        System.out.println("New time per day: "+newTimePerDay);
     }}
